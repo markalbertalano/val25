@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: darksalmon;
+}
+
+img{
+    width: 300px;
+    border-radius: 10px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+p{
+    text-align: center;
+    color: darkolivegreen;
+    font-size: xx-large;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    appearance: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin: 1px;
+    padding: 30px 50px;
+    transition-duration: .4s;
+
+    background-color: bisque;
+    color: darkolivegreen;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+input:hover{
+    background-color: rgb(209, 231, 176);
+}
