@@ -15,10 +15,10 @@ document.getElementById('yes').addEventListener('click', () => {
     body.innerHTML = '';
 
     const gif = document.createElement('img');
-    gif.src = 'images/froglove.gif';
+    gif.src = 'froglove.gif';
     gif.alt = 'Celebration GIF';
-    gif.style.width = '100%';
-    gif.style.height = '100%';
+    gif.style.width = '50%';
+    gif.style.height = '50%';
     gif.style.objectFit = 'cover';
 
     body.appendChild(gif)
